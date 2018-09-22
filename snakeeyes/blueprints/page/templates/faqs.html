@@ -1,0 +1,38 @@
+{% extends 'layouts/base.html' %}
+
+{% block end_of_head %}
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='styles/custom.css') }}">
+{% endblock end_of_head %}
+
+{% block title %}SnakeEyes - FAQs{% endblock %}
+{% block heading %}<h2>FAQs</h2>{% endblock %}
+
+
+{% block body %}
+    <p>
+      Welcome to SnakeEyes FAQs. Below you will find answers to the most common
+      questions we have received from our community. If you don't find the
+      answer you are looking for, please contact us at <a href="mailto:info@snakeeyes.com"
+      >info@snakeeyes.com</a>. And always, remember to play responsibly.
+    </p>
+
+    <hr/>
+
+    <h3>Do I have to pay for Tokens?</h3>
+    <p>
+      Yes.
+    </p>
+
+    <hr/>
+
+    <h3>Is this site legal?</h3>
+    <p>
+      Probably not. Use at your own risk.
+    </p>
+
+    <hr/>
+
+    <small class="text-muted">Last updated April 1st 2042</small>
+{% endblock %}
