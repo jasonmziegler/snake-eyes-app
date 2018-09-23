@@ -1,1 +1,4 @@
 DEBUG = False
+
+MAIL_USERNAME = 'realemail@email.com'
+MAIL_PASSWORD = 'realpassword'
